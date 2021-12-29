@@ -1,0 +1,57 @@
+{
+  "bytes": 12201,
+  "count_of_rows": 305,
+  "hash": "25f0e8a9366c2e28a9277f3f57cf99b7",
+  "name": "gdp-per-capita",
+  "profile": "data-package",
+  "resources": [
+    {
+      "bytes": 12201,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "773dece338b8aa88137a1b304d167f93",
+      "name": "gdp-per-capita",
+      "path": "data/gdp-per-capita.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "Country Name",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Country Code",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Value",
+            "type": "number"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ],
+  "title": "GDP per capita (current USD)"
+}
